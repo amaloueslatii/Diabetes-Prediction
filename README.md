@@ -14,7 +14,7 @@ on veut detecter les personnes diabetiques
 
 	Liste de modeles 
 	Optimisation GridSearch + randomizedsearch
-	compromis precision /recall :au lieu de faire "model.predict()" on va sacrifier un peu de precision pour avoir plus de recall car on ne 	veut plus detecter les personnes diabetics ça se fait avec :
+	compromis precision /recall :au lieu de faire "model.predict()" on va sacrifier un peu de precision pour avoir plus de recall :
 	def model_final (model,X,threshold):
   	    return model.decision_function(X) >threshold
 
